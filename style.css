@@ -1,0 +1,276 @@
+html,
+body{
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    background-image: -webkit-linear-gradient(top left, #80c9d0   0%, #0095b6  100%); ;
+    width: 100%;
+    justify-content: center;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+
+}
+.link{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+}
+.link .a{
+    color: #191970;
+    transition: 0.5s;
+    
+}
+
+header{
+    display: flex;
+    background-image: -webkit-linear-gradient(top left, #ffe9f4   0%, #0095b6  100%);
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    padding: 5%;
+    justify-content: space-evenly;
+    
+}
+header img{
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    border-radius: 100%;
+    
+    
+}
+.headerDiv{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headerTxt{
+    font-size: 25px;
+    font-weight: 900;
+    border-left: 4px solid #191970;
+    padding-left: 2%;
+    
+    font-family: "Franklin Gothic Medium";
+    color: #191970;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100%;
+    margin-top: -5%;
+    border-top: 2px solid white;
+    border-radius: 30px;
+    background-image: -webkit-linear-gradient(top right, #fff   100%, #ffff  100%);
+    
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.counter{
+    margin-top: -30%;
+    display: flex;
+    align-items: center;
+    border: 3px ;
+    border-radius: 10px;
+    height: 60%;
+    width: 85vw;
+    font-size: 20px;
+    background-color: #191970;
+}
+.totalApp{
+    width: 33%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 4px solid #0095b6;
+}
+.counterValues{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    font-size: 30px;
+    
+}
+.counterDescription{
+    font-size: 12px;
+    color: #0095b6;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.todayApp{
+    width: 33%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 4px solid #0095b6;
+}
+.doneApp{
+    width: 33%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#legend{
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 12px;
+}
+
+#today{
+    margin-top: -10%;
+}
+
+
+.oggi{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items:center ;
+
+
+}
+
+.future{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items:center ;
+}
+.past{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items:center ;
+}
+.card{
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    
+    padding: 10px;
+    margin: 5px;
+    font-size: 1spx;
+    width: 80%;
+    height: 20%;
+    border-radius: 25px;
+    font-size: 15px;
+    background-image: -webkit-linear-gradient(top left, #ffe9f4   0%, #42c0dc  100%);;
+    opacity: 0.9;
+    
+    
+}
+
+
+.name{
+    opacity: 1;
+    
+    width: 40%;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    font-size:12px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    max-height: 100px;
+    padding-right: 10px;
+    text-align: center;
+}
+.data{
+    
+    padding: 8px;
+    border-radius: 10px;
+    
+    font-size: 12px;
+}
+
+.rate{
+    position:inherit;
+    
+    padding: 8px;
+    border-radius: 80px;
+    background-color: #84898a;
+   
+    font-size: 12px;
+
+    
+}
+
+@media screen and (min-width: 1400px){
+    body{
+        font-size: 30px;
+    }
+    .counter{
+        height: 80% ;
+        margin-top: -20%;
+    }
+    .counterValues{
+        font-size: 35px;
+    }
+    .counterDescription{
+        font-size: 20px;
+    }
+
+    #legend{
+        font-size: 20px;
+        margin-bottom: 10%;
+    }
+    .oggi{
+        width: 100vw;
+    }
+    
+    .name{
+        font-size: 20px;
+    }
+    .rate{
+        font-size: 20px;
+
+    }
+    .data{
+        font-size: 20px;
+
+    }
+}
+  

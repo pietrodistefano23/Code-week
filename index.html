@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="link">
+            <a href="#home">Home</a>
+            <a href="#todayTitle">Today</a>
+            <a href="#pastTitle">Done</a>
+        </div>
+    </nav>
+    <header id="home">
+        <img src="https://img.freepik.com/free-vector/doctor-character-background_1270-84.jpg?w=2000" alt="logo">
+        <div class="headerDiv">
+            <p class="headerTxt">
+                Studio medico <br>
+                Preparati <br>
+                Efficienti <br>
+                Cordiali
+            </p>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="counter">
+                <div class="totalApp">
+                    <span id="totalValue" class="counterValues">cccc</span>
+                    <span class="counterDescription">appuntamenti totali</span>
+                </div>
+                
+                <div class="todayApp">
+                    <span id="todayValue" class="counterValues">cccc</span>
+                    <span class="counterDescription">Appuntamenti oggi</span>
+               
+                </div>
+                <div class="doneApp">
+                    <span id="doneValue" class="counterValues">cccc</span>
+                    <span class="counterDescription">Appuntamenti fatti</span>
+                
+
+            </div>
+
+            
+        </div>
+        </div>
+        <h3 id="today">Calendar Dates</h4>
+        <div id="legend">
+            <span>Codice 1 = 🟢</span>
+            <span>Codice 2 = 🟡</span>
+            <span>Codice 3 = 🟠</span>
+            <span>Codice 4 = 🔴</span>
+        </div>
+            
+         <h3 id="todayTitle">Appuntamenti di oggi</h3>   
+        <div class="oggi">  
+        </div>
+        <h3>Appuntamenti futuri: </h3>
+        <div class="future">
+            
+        </div>
+        <h3 id="pastTitle">Appuntamenti passati: </h3>
+        <div class="past">
+            
+        </div>
+
+    </main>
+    <script src="./script.js" type="module"></script>
+</body>
+</html>
